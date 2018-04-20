@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OlympicsModelStoreContainer" CdmEntityContainer="OlympicsEntities2">
+    <EntitySetMapping Name="Athletes">
+      <EntityTypeMapping TypeName="OlympicsModel.Athletes">
+        <MappingFragment StoreEntitySet="Athletes">
+          <ScalarProperty Name="IDAthlete" ColumnName="IDAthlete" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="IDCountry" ColumnName="IDCountry" />
+          <ScalarProperty Name="IDSport" ColumnName="IDSport" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Country">
+      <EntityTypeMapping TypeName="OlympicsModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="IDCountry" ColumnName="IDCountry" />
+          <ScalarProperty Name="Country1" ColumnName="Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Medals">
+      <EntityTypeMapping TypeName="OlympicsModel.Medals">
+        <MappingFragment StoreEntitySet="Medals">
+          <ScalarProperty Name="IDMedal" ColumnName="IDMedal" />
+          <ScalarProperty Name="Medal" ColumnName="Medal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Results">
+      <EntityTypeMapping TypeName="OlympicsModel.Results">
+        <MappingFragment StoreEntitySet="Results">
+          <ScalarProperty Name="IDResult" ColumnName="IDResult" />
+          <ScalarProperty Name="IDCountry" ColumnName="IDCountry" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="IDAthlete" ColumnName="IDAthlete" />
+          <ScalarProperty Name="IDMedal" ColumnName="IDMedal" />
+          <ScalarProperty Name="IDTypeOfOlympiad" ColumnName="IDTypeOfOlympiad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sports">
+      <EntityTypeMapping TypeName="OlympicsModel.Sports">
+        <MappingFragment StoreEntitySet="Sports">
+          <ScalarProperty Name="IDSport" ColumnName="IDSport" />
+          <ScalarProperty Name="ТNameSport" ColumnName="ТNameSport" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeOfOlympiads">
+      <EntityTypeMapping TypeName="OlympicsModel.TypeOfOlympiads">
+        <MappingFragment StoreEntitySet="TypeOfOlympiads">
+          <ScalarProperty Name="IDTypeOfOlympiad" ColumnName="IDTypeOfOlympiad" />
+          <ScalarProperty Name="TypeOfOlympiad" ColumnName="TypeOfOlympiad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

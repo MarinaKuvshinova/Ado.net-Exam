@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a7cbee2e456143e293ced854f5c2b032" Name="Diagram1">
+        <EntityTypeShape EntityType="OlympicsModel1.Athletes" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlympicsModel1.Country" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlympicsModel1.Medals" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlympicsModel1.Pictures" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlympicsModel1.Results" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlympicsModel1.Sports" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlympicsModel1.TypeOfOlympiads" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="OlympicsModel1.FK__Athletes__IDCoun__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="OlympicsModel1.FK__Athletes__IDPict__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="OlympicsModel1.FK__Athletes__IDSpor__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="OlympicsModel1.FK__Results__IDAthle__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="OlympicsModel1.FK__Results__IDCount__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="OlympicsModel1.FK__Results__IDMedal__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="OlympicsModel1.FK__Results__IDTypeO__403A8C7D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
